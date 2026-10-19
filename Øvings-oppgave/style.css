@@ -43,3 +43,29 @@ footer{
 img{
     image-align: center;
 }
+
+.kort {
+    background-color: rgb(65, 84, 184);
+
+    /*Padding*/
+    Padding: 35px; /* luft INNENFOR ramma */
+
+
+    /*Boarders*/
+    border: 10px solid orange;
+    border-radius: 20000px; /* avrundede hjørner */
+
+
+    /*Margin*/
+    margin: 200px; /* Luft i alle retninger UTENFOR ramma */
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+
+}
+
+.yt {
+     margin-left: 350px;
+}
