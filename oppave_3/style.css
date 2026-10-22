@@ -1,4 +1,52 @@
 
+/* Kommentar laget av AI: Jeg brukte AI-hjelp til bakgrunnsfargen; skrifttypen er senere endret. */
 body {
-    font-family: "Times New Roman", Arial, sans-serif;
+    font-family: "Times New Roman", times, serif;
+    background-color: #e0e0e0;
+}
+/* Kommentar laget av AI: Jeg limte inn kodeforslaget fra AI til headeren. */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+/* Kommentar laget av AI: Jeg prøvde selv først, deretter brukte jeg AI-kode og fikk hjelp til retting. */
+.plakat {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 3px solid black;
+/* Kommentar laget av AI: Verdien 130px stod i filen og ble beholdt av AI. */
+    margin-top: 130px;
+}
+/* Kommentar laget av AI: Jeg prøvde egne endringer i AI-koden, deretter fikk jeg hjelp av AI til sentreringen. */
+.filmtittel {
+    align-self: flex-start;
+    flex: 1;
+    min-width: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 0;
+}
+
+/* Kommentar laget av AI: AI skrev Grid-oppsettet for tekst og bilde. */
+.sideoppsett {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 20px;
+    align-items: start;
+}
+
+/* Kommentar laget av AI: AI skrev tilpasningen til smale skjermer. */
+@media (max-width: 650px) {
+    .sideoppsett {
+        grid-template-columns: minmax(0, 1fr);
+    }
 }
