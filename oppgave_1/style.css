@@ -1,3 +1,4 @@
+/* Kommentar fra AI: Reglene nedenfor fantes fra før. AI skrev denne kommentaren og la til bilderegelen nederst. */
 body {
     background-color: lightblue;
     color: darkblue;
@@ -10,4 +11,10 @@ body {
 
 #hvorfor {
     color: darkgreen;
+}
+
+/* Kommentar fra AI: AI laget denne regelen. Bildet beholder formen og passer på en smal skjerm. */
+img {
+    max-width: 100%;
+    height: auto;
 }
