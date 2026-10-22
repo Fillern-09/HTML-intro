@@ -1,0 +1,21 @@
+/* Kommentar fra AI: AI laget hele denne CSS-filen. Kommentarene er også skrevet av AI. */
+body {
+    background-color: #edf5e8;
+    color: #17351e;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.husk {
+    background-color: #fff0ac;
+    font-weight: bold;
+}
+
+#utstyr {
+    color: #244a2c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
